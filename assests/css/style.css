@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Urbanist", sans-serif;
+}
+
+html,
+body {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #D4DBFF;
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar,
+.navbar .nav-items,
+.navbar .log-sign-btns {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-items {
+    list-style-type: none;
+    gap: 30px;
+}
+
+.navbar .nav-items a {
+    font-size: 18px;
+    color: #0000008c;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 25px 10px;
+    margin-bottom: -1px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+    transition:  ease all .3s;
+}
+
+.navbar .nav-items a:hover {
+    border-bottom: 2px solid #283891;
+}
+
+.navbar .log-sign-btns {
+    gap: 15px;
+}
+
+.navbar .log-sign-btns .btn {
+    text-decoration: none;
+    border-radius: 2em;
+    padding: 15px 30px;
+    transition: ease all .3s;
+     
+}
+.btn-primary-outline,.btn-primary:hover{
+    border: 1px solid #D4DBFF;
+    color: #171717;
+    background-color: #ffffff;
+}
+.btn-primary,.btn-primary-outline:hover{
+    background-color: #283891;
+    color: #ffffff;
+    border: 1px solid #283891;
+}
